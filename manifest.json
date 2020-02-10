@@ -1,0 +1,6 @@
+{
+	"name": "Pressing Game",
+	"start_url": "index.htm",
+	"display": "standalone",
+	"orientation": "landscape"
+}

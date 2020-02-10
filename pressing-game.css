@@ -1,0 +1,55 @@
+.disable_highlight {
+  -webkit-touch-callout: none; /* iOS Safari disable highlight */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera disable highlight */
+  -moz-user-select: none;      /* Firefox disable highlight*/
+  -ms-user-select: none;       /* Internet Explorer/Edge  disable highlight */
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+           
+}
+
+/*In order to load font the python server must be started in the root of the repo. 'not inside dev folder'*/
+
+@font-face{
+		font-family: DroidSansMono;
+		src:local("DroidSansMono"),
+		url(../font/DroidSansMono.ttf);
+}
+
+.helpHead{
+	font-family: DroidSansMono;
+	font-size: 32px;
+}
+
+.helpBody{
+	font-family: DroidSansMono;
+	font-size: 22px;
+}
+
+.aboutHead{
+	font-family: DroidSansMono;
+	font-size: 25px;
+}
+
+.aboutBody{
+	font-family: DroidSansMono;
+	font-size: 22px;
+}
+
+.matrixHead{
+	font-family: DroidSansMono;
+	font-size: 24px;
+}
+
+.matrixBody{
+	font-family: DroidSansMono;
+	font-size: 30px;
+}
+
+#overlay{
+	clip-path: url(#clipperY);
+}
+
+#container{
+	clip-path: url(#clipperX);
+}
+
